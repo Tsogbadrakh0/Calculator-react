@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+.calculator-grid{
+    border-radius: 6px;
+    display: grid;
+    margin-top: 35px;
+    grid-template-columns: repeat(4, 6.5rem);
+    grid-template-rows: minmax(8rem, auto) repeat(5, 6rem);
+    
+}
+.span-two{
+    grid-column: span 2;
+    background-color: #777677;
+    color: #ffffff;
+}
+
+.orange{
+    background-color: #FF9F0A;
+    color: #ffffff;
+}
+.darkgrey{
+    background-color: #585859;
+    color: #ffffff;
+    
+}
+.num{
+    background-color: #777677;
+    color: #ffffff;
+}
