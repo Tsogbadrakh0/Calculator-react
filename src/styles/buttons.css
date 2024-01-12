@@ -1,0 +1,60 @@
+.grid_buttons {
+    display: grid;
+    grid-template: 70px 70px 70px 70px 70px / 80px 80px 80px 80px;
+    border-radius: 0 0 10px 10px;
+  }
+  .number0 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: solid 0.5px #5d5c5a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #858482;
+    border-radius: 0 0 0 10px;
+    color: #e7e7e5;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+  }
+  .operation1 {
+    border: solid 0.5px #5d5c5a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6c6b69;
+    color: #e7e7e5;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+  }
+  .operation {
+    border: solid 0.5px #5d5c5a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1a23d;
+    color: #e7e7e5;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+  }
+  .number {
+    border: solid 0.5px #5d5c5a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #858482;
+    color: #e7e7e5;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+  }
+  .operation2 {
+    border: solid 0.5px #5d5c5a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1a23d;
+    
+    color: #e7e7e5;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+  }
+  
